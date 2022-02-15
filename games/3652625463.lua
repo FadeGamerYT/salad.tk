@@ -1,3 +1,4 @@
+-- Universal AutoClicker
 local Player = game:GetService("Players").LocalPlayer
 local Mouse = Player:GetMouse()
 local Clicking = false
