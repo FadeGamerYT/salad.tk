@@ -1,4 +1,5 @@
 -- Universal AutoClicker
+print("loading universal autoclicker v1
 local Player = game:GetService("Players").LocalPlayer
 local Mouse = Player:GetMouse()
 local Clicking = false
@@ -15,3 +16,4 @@ Mouse.KeyDown:Connect(
         end
     end
 )
+print("loaded, Press V to activate
