@@ -1,1 +1,1 @@
-game.Player.LocalPlayer.Kick("soon")
+game.Player.LocalPlayer:Kick("soon")
