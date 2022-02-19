@@ -1,10 +1,10 @@
---simple loader cuz lazy
-local success, returned = pcall(function() 
-    return game:HttpGet("https://raw.githubusercontent.com/Iocqs/salad.tk/main/games/" .. game.PlaceId .. ".lua")
+
+local nigger, returned = pcall(function() 
+    return game:HttpGet("https://raw.githubusercontent.com/Iocqs/salad.tk/main/cb.lua")
 end)
-if not (success and returned and #returned ~= 0) then 
-    return game:HttpGet("https://raw.githubusercontent.com/Iocqs/salad.tk/main/games/universal.lua")
+if not (nigger and returned and #returned ~= 0) then 
+    return plr:Kick("Please open Counter Blox and Re-execute")
 end
 
-print("Game supported!")
+
 loadstring(tostring(returned))()
